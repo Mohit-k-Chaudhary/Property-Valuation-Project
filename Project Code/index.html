@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel = "icon" href = "img/Logo.png" 
+        type = "image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Valuation</title>
+    </head>
+<body background="img/value.gif">
+   <header>
+       Property Valuation Software
+   </header>
+   <div>
+    <form action="calculations.php" method="post">
+      <label for="fname">Name of the Valuer: </label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>  
+      <label for="lname">Code Number: </label>
+      <input type="text" id="code-number" name="code_number" placeholder="Code Number: "><br>
+      <label for="vdate">Date of Inspection</label>
+      <input type="date" id="vdate" name="Valuation-Date" aria-placeholder="enter-Date: "><br>
+      <label for="country">Country</label><br>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
